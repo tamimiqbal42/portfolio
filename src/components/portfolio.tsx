@@ -459,8 +459,19 @@ function Hero() {
           <span>I build web experiences that </span>
           {/* Target spinning icon */}
           <span className="inline-block align-[-0.08em]">
-            <svg viewBox="0 0 40 40" className="ca-spin-slow inline-block h-[0.85em] w-[0.85em]" aria-hidden="true">
-              <circle cx="20" cy="20" r="18" fill="var(--ca-green)" stroke="var(--ca-ink)" strokeWidth="2" />
+            <svg
+              viewBox="0 0 40 40"
+              className="ca-spin-slow inline-block h-[0.85em] w-[0.85em]"
+              aria-hidden="true"
+            >
+              <circle
+                cx="20"
+                cy="20"
+                r="18"
+                fill="var(--ca-green)"
+                stroke="var(--ca-ink)"
+                strokeWidth="2"
+              />
               <circle cx="20" cy="20" r="11" fill="var(--ca-surface)" />
               <circle cx="20" cy="20" r="5" fill="var(--ca-green)" />
               <circle cx="14" cy="9" r="2.4" fill="var(--ca-ink)" />
@@ -469,15 +480,75 @@ function Hero() {
           <span> gets out of your way. </span>
           {/* Flower spinning icon */}
           <span className="inline-block align-[-0.08em]">
-            <svg viewBox="0 0 40 40" className="ca-spin-slow inline-block h-[0.85em] w-[0.85em]" aria-hidden="true">
-              <ellipse cx="20" cy="8" rx="4.6" ry="8" fill="var(--ca-magenta)" transform="rotate(0 20 20)" />
-              <ellipse cx="20" cy="8" rx="4.6" ry="8" fill="var(--ca-magenta)" transform="rotate(45 20 20)" />
-              <ellipse cx="20" cy="8" rx="4.6" ry="8" fill="var(--ca-magenta)" transform="rotate(90 20 20)" />
-              <ellipse cx="20" cy="8" rx="4.6" ry="8" fill="var(--ca-magenta)" transform="rotate(135 20 20)" />
-              <ellipse cx="20" cy="8" rx="4.6" ry="8" fill="var(--ca-magenta)" transform="rotate(180 20 20)" />
-              <ellipse cx="20" cy="8" rx="4.6" ry="8" fill="var(--ca-magenta)" transform="rotate(225 20 20)" />
-              <ellipse cx="20" cy="8" rx="4.6" ry="8" fill="var(--ca-magenta)" transform="rotate(270 20 20)" />
-              <ellipse cx="20" cy="8" rx="4.6" ry="8" fill="var(--ca-magenta)" transform="rotate(315 20 20)" />
+            <svg
+              viewBox="0 0 40 40"
+              className="ca-spin-slow inline-block h-[0.85em] w-[0.85em]"
+              aria-hidden="true"
+            >
+              <ellipse
+                cx="20"
+                cy="8"
+                rx="4.6"
+                ry="8"
+                fill="var(--ca-magenta)"
+                transform="rotate(0 20 20)"
+              />
+              <ellipse
+                cx="20"
+                cy="8"
+                rx="4.6"
+                ry="8"
+                fill="var(--ca-magenta)"
+                transform="rotate(45 20 20)"
+              />
+              <ellipse
+                cx="20"
+                cy="8"
+                rx="4.6"
+                ry="8"
+                fill="var(--ca-magenta)"
+                transform="rotate(90 20 20)"
+              />
+              <ellipse
+                cx="20"
+                cy="8"
+                rx="4.6"
+                ry="8"
+                fill="var(--ca-magenta)"
+                transform="rotate(135 20 20)"
+              />
+              <ellipse
+                cx="20"
+                cy="8"
+                rx="4.6"
+                ry="8"
+                fill="var(--ca-magenta)"
+                transform="rotate(180 20 20)"
+              />
+              <ellipse
+                cx="20"
+                cy="8"
+                rx="4.6"
+                ry="8"
+                fill="var(--ca-magenta)"
+                transform="rotate(225 20 20)"
+              />
+              <ellipse
+                cx="20"
+                cy="8"
+                rx="4.6"
+                ry="8"
+                fill="var(--ca-magenta)"
+                transform="rotate(270 20 20)"
+              />
+              <ellipse
+                cx="20"
+                cy="8"
+                rx="4.6"
+                ry="8"
+                fill="var(--ca-magenta)"
+                transform="rotate(315 20 20)"
+              />
               <circle cx="20" cy="20" r="4" fill="var(--ca-ink)" />
             </svg>
           </span>
@@ -486,7 +557,13 @@ function Hero() {
         {/* Retro Neo-Brutalist CTA Button */}
         <a href="#contact" className="btn-crayon-black mt-8">
           <span className="btn-crayon-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="h-4 w-4">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2.5"
+              className="h-4 w-4"
+            >
               <path d="M7 17 17 7M9 7h8v8" />
             </svg>
           </span>
@@ -545,7 +622,9 @@ function About() {
               <p className="ca-mono text-sm font-bold mt-1">React + Python</p>
               <p className="ca-mono text-xs text-gray-400 mt-2">Uttara University · 5th Sem</p>
             </div>
-            <p className="ca-hand mt-1.5 text-center text-xl text-[var(--ca-ink)]/80">my workspace</p>
+            <p className="ca-hand mt-1.5 text-center text-xl text-[var(--ca-ink)]/80">
+              my workspace
+            </p>
           </div>
         </div>
       </div>
@@ -554,22 +633,28 @@ function About() {
       <div className="relative z-10 mx-auto mt-8 max-w-4xl sm:mt-12">
         <div className="flex flex-col items-center text-center">
           <div className="ca-doodle-box relative inline-block border-2 px-6 py-2 border-[var(--ca-ink)]">
-            <span className="text-2xl font-bold text-[var(--ca-ink)] sm:text-3xl">what&apos;s up</span>
+            <span className="text-2xl font-bold text-[var(--ca-ink)] sm:text-3xl">
+              what&apos;s up
+            </span>
           </div>
 
           <div className="mt-8">
             <p className="ca-hand mx-auto max-w-3xl text-3xl font-medium leading-[1.3] text-[var(--ca-ink)] sm:text-4xl lg:text-5xl">
-              I&apos;m a frontend developer &amp; CSE student from Dhaka who gets a little too excited about making clean, responsive interfaces. ✨
-              I care about the small details, the edge cases everyone forgets, and shipping code that genuinely makes someone&apos;s day easier. 🎨
+              I&apos;m a frontend developer &amp; CSE student from Dhaka who gets a little too
+              excited about making clean, responsive interfaces. ✨ I care about the small details,
+              the edge cases everyone forgets, and shipping code that genuinely makes someone&apos;s
+              day easier. 🎨
             </p>
           </div>
 
           {/* Academic & Professional Details Tape */}
           <div className="mt-8 max-w-2xl text-left bg-white/80 p-6 border-2 border-[var(--ca-ink)] shadow-[4px_4px_0_rgba(25,21,16,0.2)]">
             <p className="text-base sm:text-lg leading-relaxed text-[var(--ca-ink)]">
-              Alongside my academic journey at <strong>Uttara University</strong> (5th Semester, CGPA <strong>3.36</strong>),
-              I work in IT sales as a <strong>Key Account Manager</strong> and serve as a <strong>Station Leader</strong>.
-              Combining technology with business understanding and clear communication helps me approach engineering challenges from practical, user-first perspectives.
+              Alongside my academic journey at <strong>Uttara University</strong> (5th Semester,
+              CGPA <strong>3.36</strong>), I work in IT sales as a{" "}
+              <strong>Key Account Manager</strong> and serve as a <strong>Station Leader</strong>.
+              Combining technology with business understanding and clear communication helps me
+              approach engineering challenges from practical, user-first perspectives.
             </p>
           </div>
 
@@ -720,7 +805,10 @@ function Projects() {
               <div className="flex flex-col justify-between">
                 <div>
                   <span className="ca-mono inline-flex items-center gap-3 text-xs sm:text-sm font-bold uppercase tracking-[0.2em] opacity-90">
-                    <span className="h-2.5 w-2.5 rounded-full" style={{ backgroundColor: project.textColor }} />
+                    <span
+                      className="h-2.5 w-2.5 rounded-full"
+                      style={{ backgroundColor: project.textColor }}
+                    />
                     {project.date}
                   </span>
 
@@ -763,9 +851,7 @@ function Projects() {
                       {tech}
                     </span>
                   ))}
-                  <span
-                    className="ca-tag-beveled ca-mono px-4 pb-1.5 pt-2 text-sm font-bold uppercase tracking-wide bg-white text-[var(--ca-ink)] shadow-sm"
-                  >
+                  <span className="ca-tag-beveled ca-mono px-4 pb-1.5 pt-2 text-sm font-bold uppercase tracking-wide bg-white text-[var(--ca-ink)] shadow-sm">
                     {project.repo}
                   </span>
                 </div>
@@ -773,10 +859,7 @@ function Projects() {
 
               {/* Right Column: Framed Image with Washi Tape */}
               <div className="self-center">
-                <div
-                  className="relative cursor-pointer group"
-                  onClick={() => setSelected(project)}
-                >
+                <div className="relative cursor-pointer group" onClick={() => setSelected(project)}>
                   {/* Washi Tapes at Top Corners */}
                   <span className="washi-tape-white absolute -left-4 -top-3 z-10 h-6 w-20 -rotate-[9deg]" />
                   <span className="washi-tape-white absolute -right-4 -top-3 z-10 h-6 w-20 rotate-[9deg]" />
@@ -945,10 +1028,13 @@ function Experience() {
                 Current Role · IT Sales
               </span>
               <h3 className="text-2xl font-bold mt-1">Key Account Manager</h3>
-              <p className="text-sm text-[var(--ca-ink)]/70 mt-1">IT Sales · Current Responsibilities</p>
+              <p className="text-sm text-[var(--ca-ink)]/70 mt-1">
+                IT Sales · Current Responsibilities
+              </p>
               <p className="mt-4 text-sm leading-relaxed text-[var(--ca-ink)]">
-                Currently working in IT sales as a Key Account Manager, developing client relationships,
-                communication skills, account management capabilities and business understanding.
+                Currently working in IT sales as a Key Account Manager, developing client
+                relationships, communication skills, account management capabilities and business
+                understanding.
               </p>
             </div>
 
@@ -1068,7 +1154,8 @@ function Education() {
             <div>
               <strong className="block text-base font-bold">Python &amp; Django Coursework</strong>
               <span className="text-xs sm:text-sm text-[var(--ca-ink)]/80">
-                Completed dedicated coursework focused on Python programming and Django web frameworks.
+                Completed dedicated coursework focused on Python programming and Django web
+                frameworks.
               </span>
             </div>
           </div>
@@ -1116,7 +1203,7 @@ function Contact() {
     setErrors({});
     const subject = encodeURIComponent(`Portfolio inquiry from ${parsed.data.name}`);
     const body = encodeURIComponent(
-      `Name: ${parsed.data.name}\nEmail: ${parsed.data.email}\n\n${parsed.data.message}`
+      `Name: ${parsed.data.name}\nEmail: ${parsed.data.email}\n\n${parsed.data.message}`,
     );
     window.location.href = `mailto:tamimiqbal1362@gamil.com?subject=${subject}&body=${body}`;
   }
@@ -1130,7 +1217,8 @@ function Contact() {
             LET&apos;S TALK
           </span>
           <p className="ca-mono mt-3 max-w-md text-xs sm:text-sm uppercase tracking-wider text-[var(--ca-ink)]/70">
-            Got a project, an opportunity, or just want to say hi? Send it over. I read every message.
+            Got a project, an opportunity, or just want to say hi? Send it over. I read every
+            message.
           </p>
         </div>
 
@@ -1261,10 +1349,7 @@ function Contact() {
                 )}
               </div>
 
-              <button
-                type="submit"
-                className="btn-crayon-black mt-2 self-start"
-              >
+              <button type="submit" className="btn-crayon-black mt-2 self-start">
                 <span className="btn-crayon-icon">
                   <Send size={14} />
                 </span>
